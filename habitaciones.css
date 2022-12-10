@@ -1,20 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100&display=swap');
 
 body{background-color: beige;
-font-family:'Open Sans', sans-serif;}
 
-nav ul{float: right;
-        margin-left: 295px;
-        margin-right: 30px;
-        position: fixed;
-        top: 0; left: 0; right: 0;
-        background-color: beige;opacity: 0.4;
-        box-shadow: 0 5px 10px rgb(7, 7, 7);
-        padding: 0px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        z-index: 500;}
+
+}
+
+nav ul{
+    margin-right: 30px;
+    margin-left: 500px;
+    background-color: beige;
+    opacity: 0.5;
+    box-shadow: 0 5px 10px rgb(7 7 7);
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 0;
+    right: 0;}
 
 a:hover{background-color:black ;color: white;}
 
@@ -29,66 +33,77 @@ nav ul li a{font-size: 27px;
             width: 500px;
             height: 500px;}
 
-#habitaciones p {font-size: 23px;box-sizing: border-box;
-    text-align: center;
-    padding: 40px;
-    color: black;
-    width: 555px;
-    height: 425px;margin-left: 800px;background: red
-    }
+h2{
+font-family: 'Martian Mono', monospace;
+ margin-top: 140px;
+ margin-left: 85px;
+ font-size: 50px;}
 
-#paquetesspa p{
-    font-size: 30px;box-sizing: border-box;
-    text-align: center;
-    padding: 40px;
-    color: black;
-    width: 555px;
-    height: 195px;margin-left: 855px; background-color: white;
-}
-
-#habitaciones h2{
-    padding: 120px 0;margin-bottom: -10.5rem;font-weight: 900px;
-    line-height: -0.8;
-    color: inherit;margin-top: 5px;display: block;
-}
-
-#cuadro{
-    font-size: 20px;color: white;
-    background-color: black;
+.derecha a{
+    color: #fff;
+    background-color: #634e42;
+    border-color: #634e42;
     border-radius: 0;
-    font-size: 14px;
+    font-size: 20px;
     padding: 0.5rem 1rem;display: inline-block;
-    font-weight: 400;text-align: center;
-    vertical-align: middle;user-select: none;border: 1px solid transparent;line-height: 1.5;margin-left: 1070px;text-decoration: none;
+    font-weight: 400;
+    vertical-align: middle;user-select: none;border: 1px solid transparent;line-height: 1.5;text-decoration: none;}
+
+div.derecha {
+  
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 60px;
+    font-family: 'Martian Mono', monospace;
+  
+    width: 50%;margin-left: 40px;
+    margin-right: 8%;text-align: center;}
+
+.derecha p{ 
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 60px;background-color: white;
+    font-family: 'Martian Mono', monospace;
+    margin-left: 60px;   margin-right: 50px;
+
+}
+main{display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+#iconos{width: 23%;display:flex;margin-left: 70px;}
+
+div#izquierda{
+    flex-direction: column;
+    display: flex;
+    width:50%;
+    margin-right: 16%;
 }
 
-#iconos {
-    width: 50px;
-    height: 50px;
-    
+#izquierda img{padding: 20px;
+margin-left: 20px;
+margin-right: 30px;justify-content: center;
+text-align: center;}
+
+#izquierda p{padding: 25px;
+    margin-left: 10px;
+    margin-right: 20px;margin-top: 20px;
+    justify-content:center;
+padding-top: 35px;font-family: 'Martian Mono', monospace;}
+
+#imageneshabitaciones{
+    width: 60%;
+    display:flex;margin-top: 123px;
 }
 
 
+#imageneshabitaciones img{
+    width: 100%;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.final{display: flex;
-    align-items: center;
-    justify-content: space-around;color: black;}
+footer{
+    display: flex;
+align-items: center;
+font-size: 20px;
+justify-content: space-around;color: black;}
