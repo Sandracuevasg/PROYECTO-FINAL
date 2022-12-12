@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&display=swap');
+
+body{
+    background-image: url(./IMÁGENES/fondo-contacto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;}
+
+nav ul{
+    margin-right: 30px;
+    margin-left: 500px;
+    background-color: beige;
+    opacity: 0.8;
+    box-shadow: 0 5px 10px rgb(7 7 7);
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 0;
+    right: 0;}
+
+nav{position: relative;
+    z-index: 7;}
+
+a:hover{background-color:black ;color: white;}
+
+nav ul li{display: inline-block;
+        line-height: 80px;
+        margin: 0 5px;}
+
+nav ul li a{font-size: 27px;
+            padding: 7px;
+            color: black;text-decoration: none; 
+            text-align: center;
+            width: 500px;
+            height: 500px;}
+
+h2{
+font-family: ;
+ margin-top: 117px;
+ margin-left: 85px;
+ font-size: 50px;font-family: 'Courier Prime', monospace;}
+
+h3{
+   text-align: center;font-family: 'Courier Prime', monospace;}
+
+iframe{
+    margin-left: 2.5%;}
+#iconos{
+    width: 1%;
+    height: 1%;
+    margin-left: 40px;
+    display: inline;}
+#iconos img{
+    width: 2%;
+    height: 2%;
+    margin-left: 20px;}
+#formularioizquierda{
+    flex-direction: column;
+    display: flex;
+    width:50%;
+    text-align: center;
+margin-left: 10%;font-family: 'Courier Prime', monospace;}
+
+.contenedor{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
+#botones input{
+    float: left;
+    margin-left: 20%;}
+
+#botones label{
+float:left;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: black;font-size: 20px;font-family: 'Courier Prime', monospace;}

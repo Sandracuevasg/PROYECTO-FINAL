@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 body{background-image:url(./IMÁGENES/RESTAURANTE3.jpg);background-position: center;
     background-repeat: no-repeat;
@@ -8,7 +9,7 @@ nav ul{
     margin-right: 30px;
     margin-left: 500px;
     background-color: beige;
-    opacity: 0.5;
+    opacity: 0.9;
     box-shadow: 0 5px 10px rgb(7 7 7);
     position: fixed;
     top: 0;
@@ -35,12 +36,16 @@ footer{
 display: flex;
 align-items: center;
 justify-content: space-around;
-color: black;font-size: 20px;}
+color: white;font-size: 20px;font-family: 'Roboto', sans-serif;}
 
 h2{font-family: 'Martian Mono', monospace;
  margin-top: 140px;
  margin-left: 85px;
- font-size: 50px;}
+ font-size: 50px;font-family: 'Roboto', sans-serif;}
+
+ nav{ position: relative;
+    z-index: 7;
+}
 
 .parrafo{ 
     font-size: 25px;
@@ -53,28 +58,33 @@ h2{font-family: 'Martian Mono', monospace;
     flex-direction: column;
     margin-right: 5%;
     padding: 20px;
-    opacity: 0.8;}
+    opacity: 0.8;
+    position: relative;
+    z-index: 6;font-family: 'Roboto', sans-serif;}
     
     div#enlace1{
     margin-left: 20%;
     margin-right: 68%;
     background-color: beige;
     margin-bottom: 5%;
-    text-decoration: none;
     text-align: center;
     font-size: 16px;
-    padding: 10px;
+    padding: 10px;position: relative;
+    z-index: 6;font-family: 'Roboto', sans-serif;
+    
     
 }
+div a{text-decoration: none;color: black;}
 
 div#enlace2{margin-left: 20%;
     margin-right: 68%;
     background-color: beige;
     margin-bottom: 5%;
-    text-decoration: none;
     text-align: center;
     font-size: 16px;
-    padding: 10px;
+    padding: 10px;position: relative;
+    z-index: 6;font-family: 'Roboto', sans-serif;
+   
     
 }
 .parrafo2{
@@ -85,7 +95,7 @@ div#enlace2{margin-left: 20%;
    color: black;
    background-color: beige;
    margin-left: 10%;
-margin-right: 10%;
+margin-right: 10%;font-family: 'Roboto', sans-serif;
 margin-top: 5%;}
 
 

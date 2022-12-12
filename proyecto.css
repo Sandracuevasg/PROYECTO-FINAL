@@ -13,31 +13,32 @@ body{ font-family: 'Open Sans', sans-serif;
    background-size: cover;
    background-attachment: fixed;}
 
-nav ul{float: right;
-margin-left: 295px;
-margin-right: 30px;
-position: fixed;
-top: 0; left: 0; right: 0;
-background-color: rgb(236, 239, 244);opacity: 0.5;
-box-shadow: 0 5px 10px rgba(0, 0, 0, 1);
-padding: 0px;
-display: flex;
-align-items: center;
-justify-content: space-between;
-z-index: 500;}
+   nav ul{
+    margin-right: 30px;
+    margin-left: 500px;
+    background-color: beige;
+    opacity: 0.5;
+    box-shadow: 0 5px 10px rgb(7 7 7);
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 0;
+    right: 0;}
 
 a:hover{background-color:black ;color: white;}
 
 nav ul li{display: inline-block;
-line-height: 80px;
-margin: 0 5px;}
+        line-height: 80px;
+        margin: 0 5px;}
 
 nav ul li a{font-size: 27px;
-padding: 7px;
-color: black;text-decoration: none; 
-text-align: center;
-width: 500px;
-height: 500px;}
+            padding: 7px;
+            color: black;text-decoration: none; 
+            text-align: center;
+            width: 500px;
+            height: 500px;}
 
 #menuizquierdo{width: 100%;color: black;}
 .logotipo{width: 100%;
@@ -55,12 +56,12 @@ height: 500px;}
         font-weight: bold;
         padding: 20px 0;margin-bottom: 0.5rem;margin-top: 0;display: block;
         margin-inline-start: 0px;
-    margin-inline-end: 0px; color: white;text-align: center;}
+    margin-inline-end: 0px; color: white;text-align: center;background: rgba(62, 67, 68, 0.566);color: white;}
 
     .treselementos p{
     margin-top: 0;
     margin-bottom: 1rem;box-sizing: border-box;display: block;
-    text-align: center; color: white;}
+    text-align: center; color: white;background: rgba(62, 67, 68, 0.566);color: white;}
 
     .treselementos a{
     color: #fff;
@@ -95,7 +96,9 @@ height: 500px;}
     color: black;
     width: 600px;
     height: 500px;margin-left: 800px;background: linear-gradient(rgba(236, 239, 244, 0.5),rgba(236, 239, 244, 0.5));}
-footer{
+footer {
     display: flex;
 align-items: center;
+font-size: 25px;
+
 justify-content: space-around;color: white;}

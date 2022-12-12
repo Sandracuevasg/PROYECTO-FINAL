@@ -4,33 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contacto</title>
+    <link rel="stylesheet" href="contacto.css">
 </head>
 <body>
-    <main id="Como llegar">
-        INSERTAR MAPA
-    </main>
+    <h2>CONTACTO</h2>
+         <nav>
+            <ul>
+                <li><a href="index.HTML">Inicio</a></li>
+                <li><a href="./habitaciones.html">Habitaciones</a></li>
+                <li><a href="./restaurante.html">Restaurante</a></li>
+                <li><a href="./spa.html">Spa</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    <span class="contenedor">
 
-    <main id="como llegar al hotel">
-        <ul>
-            <li>Dirección</li>
-                <p>Plaza de la Constitución nº 8, 23620 Mengíbar (Jaén)</p>
-            <li>Teléfono</li>
-                <p>953 81 76 90 / 611 696 903</p>
-            <li>E-mail</li>
-                <p>hotel@lamirada.es</p>
-        </ul>
-    </main>
+        <main id="comollegarderecha">
+            <h3>CÓMO LLEGAR</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3169.7594034800336!2d-5.997642824368887!3d37.395521772083455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd126c0f40c0517f%3A0xb90476d861e43fba!2sHOTEL%20VENECIA%20SEVILLA!5e0!3m2!1ses!2ses!4v1670851459567!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> <br><br>
 
-    <main id="Contacto"> HACER FORMULARIO
-        <ul>
-            <li>NOMBRE Y APELLIDOS</li>
-            <li>E-MAIL</li>
-            <li>TELÉFONO</li>
-            <li>ESCRIBA SU MENSAJE</li> CUADRO PARA ESCRIBIR MENSAJE
-        </ul>
-        <input type="submit"  name="Enviar" value="Enviar">
-    </main>
+        <div id="iconos">
+            <address><img src="./IMÁGENES/iconomapa.svg" alt=""> HOTEL VENECIA SEVILLA, C. Trajano, 31, 41002 Sevilla</address>
+            <p><img src="./IMÁGENES/ICONOTELEFONO.svg" alt=" "> +34 954 381 161</p>
+            <p><img src="./IMÁGENES/ICONOEMAIL.svg" alt=" ">  info@hotelveneciasevilla.es</p>
+        </div>
+        </main>
+
+        <main id="formularioizquierda">
+            <h3>ESCRÍBENOS PARA MÁS INFORMACIÓN</h3>
+            <section>
+                    <label for="nombre">Introduzca su nombre</label><br>
+                    <input type="text" required pattern="[a-z A-Z]{3,}"><br><br>
+                    <label for="apellido">Apellidos</label> <br>
+                    <input type="text" id="apellido"required pattern="[a-z A-Z]{3,}"> <br><br>
+                    <label for="email">Introduzca su E-mail</label><br>
+                    <input type="text"> <br><br>
+                    <label for="descripción">Escriba que quiere saber y nos pondremos en contacto con usted</label><br>
+                    <textarea name="descripción" id="descripción" cols="60" rows="10" maxlength="20"20></textarea> <br><br>
+            </section>
+                <div id="botones">
+                    <input type="checkbox" id="politica de privacidad" name="politica de privacidad" value="politica de privacidad">
+                    <label for="politica de privacidad">Politica de privacidad</label>
+                    <br><br>
+                    <input type="submit" value="Enviar"Enviar>
+                </div>
+        </main>
+</span>
 </body>
 <footer>
     <p>Aviso legal</p>
