@@ -73,7 +73,7 @@ main{display: flex;
     flex-direction:row;
     justify-content: center;
 }
-#iconos{width: 23%;display:flex;}
+.iconos{width: 23%;display:flex;}
 
 div#izquierda{
     flex-direction: column;
@@ -117,4 +117,7 @@ footer a{
     text-decoration: none;
     color: black;
    } 
-    
+   @media screen and (max-width:1024px) {
+    main{flex-direction: column-reverse;position: relative;}
+.iconos{width: 100%;display:flex; flex-direction: column;}
+#imageneshabitaciones img{width: 130%;}}
