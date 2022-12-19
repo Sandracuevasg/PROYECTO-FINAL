@@ -72,7 +72,7 @@ h2{font-family: 'Martian Mono', monospace;
     
     div#enlace1{
     margin-left: 20%;
-    margin-right: 68%;
+    margin-right: 53%;
     background-color: beige;
     margin-bottom: 5%;
     text-align: center;
@@ -80,12 +80,11 @@ h2{font-family: 'Martian Mono', monospace;
     padding: 10px;position: relative;
     z-index: 6;font-family: 'Roboto', sans-serif;
     
-    
 }
 div a{text-decoration: none;color: black;}
 
 div#enlace2{margin-left: 20%;
-    margin-right: 68%;
+    margin-right: 62%;
     background-color: beige;
     margin-bottom: 5%;
     text-align: center;
@@ -103,16 +102,20 @@ div#enlace2{margin-left: 20%;
    color: black;
    background-color: beige;
    margin-left: 10%;
-margin-right: 10%;font-family: 'Roboto', sans-serif;
-margin-top: 5%;}
+    margin-right: 10%;font-family: 'Roboto', sans-serif;
+    margin-top: 5%;}
 
-@media screen and (max-width:1024px){
-div#enlace1{max-width: 50%;
-min-width: 25%;
-padding-right: 20px;}
-div#enlace2{max-width: 50%;
-    min-width: 30%;
+@media screen and (max-width:1024px) {
+        .contenedor{flex-direction: column-reverse;position: relative;}
 
-}
-
-}
+nav ul{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-left: 10px;width: 35%;
+    height: auto;position: relative;
+    display: none;}}
+       
+    @media screen and (max-width:1217px){
+    nav ul li a{ font-size:17px;}}
