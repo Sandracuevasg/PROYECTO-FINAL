@@ -35,6 +35,12 @@ h2{
  margin-left: 85px;font-family: 'Chivo Mono', monospace;
  font-size: 50px;}
 
+ .contenedor{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
 #spa{
    
     background: rgba(240, 243, 244, 0.374);
@@ -57,11 +63,7 @@ h2{
     height: 8%;
 
 }
-.contenedor{
-    display: flex;
-    flex-direction:row;
-    justify-content: center;
-}
+
 #imagenesizquierda img{flex-direction: column;
     display: flex;
     width:80%;
